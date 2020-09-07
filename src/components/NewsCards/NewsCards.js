@@ -3,6 +3,7 @@ import NewsCard from '../NewsCard/NewsCard';
 import { Grid, Grow, Typography } from '@material-ui/core';
 import useStyles from './style.js'
 
+
 const NewsCards = ({ articles, activeArticle}) => {
     const classes = useStyles();
 
